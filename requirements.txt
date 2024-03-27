@@ -4,3 +4,8 @@ IPython
 torch
 utils
 IPython
+ipykernel
+streamlit
+plotly
+geopandas
+shapely

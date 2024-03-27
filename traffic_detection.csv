@@ -1,0 +1,173 @@
+Camera Number,car,truck,bus,quadrant,camera_location,Camera_Number,URL,longitude,latitude
+1,6.0,2.0,0.0,SW/SE,Glenmore Trail / Macleod Trail S,1,http://trafficcam.calgary.ca/loc0.jpg,-114.0715855,50.993989
+2,8.0,0.0,0.0,SE,Peigan Trail / Barlow Trail SE,2,http://trafficcam.calgary.ca/loc1.jpg,-114.0026887,51.0149725
+3,3.0,0.0,0.0,SE,50 Avenue / Barlow Trail SE,3,http://trafficcam.calgary.ca/loc2.jpg,-114.0018449,51.0086234
+4,9.0,1.0,1.0,NE,Memorial Drive / 52 Street E,4,http://trafficcam.calgary.ca/loc3.jpg,-113.9558182,51.053253
+5,3.0,1.0,0.0,NW,Kensington Road / Crowchild Trail NW,5,http://trafficcam.calgary.ca/loc4.jpg,-114.1180882,51.0524874
+6,8.0,0.0,0.0,SW,4 Avenue / 9 Street SW,6,http://trafficcam.calgary.ca/loc5.jpg,-114.0835215,51.0499601
+7,23.0,5.0,0.0,SW,Glenmore Trail / Elbow Drive SW (East),7,http://trafficcam.calgary.ca/loc6.jpg,-114.0842358,50.9939161
+8,27.0,4.0,0.0,SE,Stoney Trail / 52 Street SE,8,http://trafficcam.calgary.ca/loc7.jpg,-113.9537466,50.9040183
+9,14.0,3.0,0.0,SW/SE,Heritage Drive / Macleod Trail S,9,http://trafficcam.calgary.ca/loc8.jpg,-114.0717745,50.9793867
+10,16.0,3.0,0.0,SW/SE,Bannister Road / Macleod Trail S,10,http://trafficcam.calgary.ca/loc9.jpg,-114.0716512,50.9251547
+11,4.0,0.0,0.0,SE,130 Avenue / Deerfoot Trail SE,11,http://trafficcam.calgary.ca/loc10.jpg,-113.9750552,50.9319613
+12,6.0,0.0,1.0,SW/SE,149 Avenue / Macleod Trail S,12,http://trafficcam.calgary.ca/loc11.jpg,-114.0703057,50.9188866
+13,17.0,1.0,0.0,NE,McKnight Blvd / 52 Street NE,13,http://trafficcam.calgary.ca/loc12.jpg,-113.9582103,51.0958837
+14,5.0,6.0,0.0,SW,8 Avenue / 11 Street SW,14,http://trafficcam.calgary.ca/loc13.jpg,-114.0886408,51.046258
+15,26.0,1.0,0.0,SE,17 Avenue / 28 Street SE,15,http://trafficcam.calgary.ca/loc14.jpg,-113.9930839,51.0377477
+16,9.0,1.0,1.0,SW,Glenmore Trail / Crowchild Trail SW,16,http://trafficcam.calgary.ca/loc15.jpg,-114.1180484,51.0000379
+17,22.0,1.0,0.0,NW,24 Avenue / Crowchild Trail NW,17,http://trafficcam.calgary.ca/loc16.jpg,-114.1182195,51.0741894
+18,12.0,2.0,0.0,SE,Memorial Drive / Deerfoot Trail SE,18,http://trafficcam.calgary.ca/loc17.jpg,-114.0181691,51.0478522
+19,4.0,0.0,0.0,SE,17 Avenue / Deerfoot Trail SE,19,http://trafficcam.calgary.ca/loc18.jpg,-114.0050859,51.0368026
+20,28.0,2.0,0.0,SE,22 Avenue / Deerfoot Trail SE,20,http://trafficcam.calgary.ca/loc19.jpg,-113.9947155,51.0337749
+21,0.0,0.0,0.0,SE,34 Avenue / Deerfoot Trail SE,21,http://trafficcam.calgary.ca/loc20.jpg,-113.9998411,51.0232852
+22,0.0,0.0,0.0,SE,50 Avenue / 52 Street SE,22,http://trafficcam.calgary.ca/loc21.jpg,-113.958422,51.0088802
+23,4.0,1.0,0.0,NW,Crowchild Trail / Nosehill Drive NW,23,http://trafficcam.calgary.ca/loc22.jpg,-114.2024515,51.1200649
+24,12.0,0.0,0.0,SW,Southland Drive / 14 Street SW,24,http://trafficcam.calgary.ca/loc23.jpg,-114.0953543,50.9615719
+25,1.0,0.0,0.0,SW,Heritage Drive / 14 Street SW,25,http://trafficcam.calgary.ca/loc24.jpg,-114.094847,50.9795297
+26,2.0,1.0,1.0,SE,Stoney Trail / 88 Street SE,26,http://trafficcam.calgary.ca/loc25.jpg,-113.9072768,50.906454
+27,15.0,1.0,0.0,SW,5 Avenue btw 1 Street & 2 Street SW,27,http://trafficcam.calgary.ca/loc26.jpg,-114.06642,51.0484854
+28,16.0,3.0,1.0,SW/SE,Glenmore Trail / Macleod Trail S (West),28,http://trafficcam.calgary.ca/loc27.jpg,-114.071551,50.9939175
+29,14.0,0.0,0.0,SW,Glenmore Trail / 1A Street SW,29,http://trafficcam.calgary.ca/loc28.jpg,-114.0673324,50.9943602
+30,9.0,0.0,0.0,SE,114 Avenue / 52 Street SE,30,http://trafficcam.calgary.ca/loc29.jpg,-113.958331,50.9504395
+31,0.0,0.0,0.0,NE,Memorial Drive / Edmonton Trail NE,31,http://trafficcam.calgary.ca/loc30.jpg,-114.0501357,51.0508018
+32,16.0,2.0,2.0,SW/SE,42 Avenue / Macleod Trail S,32,http://trafficcam.calgary.ca/loc31.jpg,-114.0643126,51.0159099
+33,3.0,0.0,0.0,SE,6 Avenue / 1 Street SE,33,http://trafficcam.calgary.ca/loc32.jpg,-114.0606748,51.0472376
+34,0.0,0.0,0.0,SE,4 Avenue / Macleod Trail S,34,http://trafficcam.calgary.ca/loc33.jpg,-114.057837,51.0491958
+35,1.0,1.0,0.0,SE,11 Avenue / Macleod Trail S,35,http://trafficcam.calgary.ca/loc34.jpg,-114.0583524,51.042248
+36,4.0,1.0,0.0,NW,Memorial Drive / 10 Street NW,36,http://trafficcam.calgary.ca/loc35.jpg,-114.0858242,51.0519424
+37,4.0,1.0,0.0,SE,5 Avenue / 1 Street SE,37,http://trafficcam.calgary.ca/loc36.jpg,-114.0603862,51.0483314
+39,4.0,0.0,0.0,NE,16 Avenue / 36 Street NE,39,http://trafficcam.calgary.ca/loc38.jpg,-113.9814146,51.066945
+40,4.0,2.0,0.0,NW,16 Avenue / 14 Street NW,40,http://trafficcam.calgary.ca/loc39.jpg,-114.0939902,51.0669765
+41,6.0,0.0,0.0,SE,Highfield Road / Blackfoot Trail SE,41,http://trafficcam.calgary.ca/loc40.jpg,-114.047906,51.0210672
+42,23.0,2.0,0.0,SE,Memorial Drive / 36 Street SE,42,http://trafficcam.calgary.ca/loc41.jpg,-113.9815651,51.0521087
+43,33.0,2.0,1.0,NW,Beddington Trail / Country Hills Blvd NW,43,http://trafficcam.calgary.ca/loc42.jpg,-114.0922392,51.1438922
+44,18.0,2.0,0.0,SE,8 Avenue / 12 Street SE,44,http://trafficcam.calgary.ca/loc43.jpg,-114.0335844,51.042036
+45,13.0,0.0,0.0,SW/SE,194 Avenue / Macleod Trail S,45,http://trafficcam.calgary.ca/loc44.jpg,-114.0440631,50.8756442
+46,14.0,0.0,0.0,NE,32 Avenue / 52 Street NE,46,http://trafficcam.calgary.ca/loc45.jpg,-113.9582969,51.0815778
+47,5.0,1.0,0.0,SE,25 Avenue / Spiller Road SE,47,http://trafficcam.calgary.ca/loc46.jpg,-114.0501597,51.0297595
+48,18.0,3.0,2.0,NW,John Laurie Blvd / Shaganappi Trail NW,48,http://trafficcam.calgary.ca/loc47.jpg,-114.1398453,51.1088433
+49,33.0,1.0,0.0,SW/SE,Southland Drive / Macleod Trail S,49,http://trafficcam.calgary.ca/loc48.jpg,-114.0713525,50.9651413
+50,9.0,1.0,0.0,NE,32 Avenue / Deerfoot Trail NE,50,http://trafficcam.calgary.ca/loc49.jpg,-114.035269,51.0816137
+51,2.0,0.0,0.0,NE,16 Avenue / Deerfoot Trail NE,51,http://trafficcam.calgary.ca/loc50.jpg,-114.0281359,51.067286
+52,25.0,1.0,0.0,NE,McKnight Blvd / Deerfoot Trail NE,52,http://trafficcam.calgary.ca/loc51.jpg,-114.0404543,51.0960482
+53,2.0,0.0,0.0,SE,Glenmore Trail / Deerfoot Trail SE,53,http://trafficcam.calgary.ca/loc52.jpg,-114.035226,50.9942156
+54,17.0,0.0,0.0,SW,Bow Trail / Pumphouse Road SW,54,http://trafficcam.calgary.ca/loc53.jpg,-114.1036354,51.0470427
+55,24.0,1.0,0.0,SW,Bow Trail / 14 Street SW,55,http://trafficcam.calgary.ca/loc54.jpg,-114.094804,51.0470663
+56,17.0,2.0,1.0,SW,4 Avenue / 10 Street SW,56,http://trafficcam.calgary.ca/loc55.jpg,-114.0868196,51.0491768
+57,22.0,1.0,0.0,SW,Bow Trail / 6 Avenue SW,57,http://trafficcam.calgary.ca/loc56.jpg,-114.0913813,51.047493
+58,4.0,1.0,0.0,NW,Memorial Drive / 14 Street NW,58,http://trafficcam.calgary.ca/loc57.jpg,-114.0931995,51.049639
+59,7.0,0.0,0.0,NW,Memorial Drive / 10A Street NW,59,http://trafficcam.calgary.ca/loc58.jpg,-114.0905363,51.050951
+60,18.0,0.0,0.0,NW,Memorial Drive / 9 Street NW,60,http://trafficcam.calgary.ca/loc59.jpg,-114.0811808,51.0536259
+61,10.0,1.0,0.0,SE,Glenmore Trail / Blackfoot Trail SE,61,http://trafficcam.calgary.ca/loc60.jpg,-114.0525544,50.9939134
+62,0.0,0.0,0.0,SW,Bow Trail / 33 Street SW,62,http://trafficcam.calgary.ca/loc61.jpg,-114.1355522,51.0413844
+63,15.0,2.0,0.0,SE,130 Avenue / 52 Street SE,63,http://trafficcam.calgary.ca/loc62.jpg,-113.9582911,50.9314226
+64,17.0,3.0,0.0,NE,McKnight Blvd / Metis Trail NE,64,http://trafficcam.calgary.ca/loc63.jpg,-113.9807844,51.0957002
+65,3.0,1.0,1.0,SE,Glenmore Trail / 52 Street SE,65,http://trafficcam.calgary.ca/loc64.jpg,-113.9587798,50.9798024
+66,3.0,0.0,0.0,NE,16 Avenue / Edmonton Trail NE,66,http://trafficcam.calgary.ca/loc65.jpg,-114.0562102,51.0668211
+67,6.0,1.0,0.0,NE,Country Hills Blvd / Deerfoot Trail NE,67,http://trafficcam.calgary.ca/loc66.jpg,-114.0173379,51.1543285
+68,6.0,0.0,0.0,NE,64 Avenue / Deerfoot Trail NE,68,http://trafficcam.calgary.ca/loc67.jpg,-114.0480321,51.1105064
+69,35.0,2.0,0.0,NE,16 Avenue / 52 Street NE,69,http://trafficcam.calgary.ca/loc68.jpg,-113.9584279,51.0667121
+70,10.0,5.0,0.0,SE,Southland Drive / Deerfoot Trail SE,70,http://trafficcam.calgary.ca/loc69.jpg,-114.0315769,50.9679604
+71,23.0,2.0,0.0,NE,16 Avenue / 19 Street NE,71,http://trafficcam.calgary.ca/loc70.jpg,-114.0140245,51.0670373
+72,6.0,2.0,0.0,SE,Southland Drive / Blackfoot Trail SE,72,http://trafficcam.calgary.ca/loc71.jpg,-114.0387603,50.9658416
+73,0.0,0.0,0.0,NW,Stoney Trail / Sarcee Trail NW,73,http://trafficcam.calgary.ca/loc72.jpg,-114.164821,51.1530825
+74,11.0,1.0,0.0,NE,Country Hills Blvd / 36 Street NE,74,http://trafficcam.calgary.ca/loc73.jpg,-113.9817289,51.1543016
+75,20.0,1.0,0.0,NW,16 Avenue / 10 Street NW,75,http://trafficcam.calgary.ca/loc74.jpg,-114.0849216,51.0668068
+76,5.0,3.0,0.0,SW,5 Avenue / 7 Street SW,76,http://trafficcam.calgary.ca/loc75.jpg,-114.0786008,51.04882
+77,3.0,0.0,0.0,SW,12 Avenue / 5 Street SW,77,http://trafficcam.calgary.ca/loc76.jpg,-114.0741758,51.0417567
+78,14.0,2.0,0.0,SE,17 Avenue / 52 Street SE,78,http://trafficcam.calgary.ca/loc77.jpg,-113.9582468,51.0378098
+79,36.0,0.0,0.0,NW,Country Hills Blvd / Royal Birch Blvd NW,79,http://trafficcam.calgary.ca/loc78.jpg,-114.2130566,51.1498531
+80,8.0,1.0,0.0,SE,47 Avenue / Deerfoot Trail SE,80,http://trafficcam.calgary.ca/loc79.jpg,-114.0084668,51.0109282
+81,25.0,2.0,3.0,SE,12 Avenue / Olympic Way SE,81,http://trafficcam.calgary.ca/loc80.jpg,-114.0534925,51.0411473
+82,8.0,1.0,0.0,SW/SE,25 Avenue / Macleod Trail SE,82,http://trafficcam.calgary.ca/loc81.jpg,-114.0598396,51.0304732
+83,6.0,0.0,0.0,SE,58 Avenue / Blackfoot Trail SE,83,http://trafficcam.calgary.ca/loc82.jpg,-114.0490102,51.001302
+84,19.0,0.0,0.0,NE,16 Avenue / Stoney Trail NE,84,http://trafficcam.calgary.ca/loc83.jpg,-113.9204069,51.0676856
+85,6.0,0.0,0.0,NE,Stoney Trail / Deerfoot Trail NE,85,http://trafficcam.calgary.ca/loc84.jpg,-114.0013849,51.1752086
+86,8.0,0.0,0.0,NW,16 Avenue / Stoney Trail NW,86,http://trafficcam.calgary.ca/loc85.jpg,-114.2317849,51.0886513
+87,17.0,1.0,0.0,SE,Stoney Trail / Deerfoot Trail SE,87,http://trafficcam.calgary.ca/loc86.jpg,-113.9766063,50.9007257
+88,2.0,0.0,0.0,SE,Heritage Drive / Blackfoot Trail SE,88,http://trafficcam.calgary.ca/loc87.jpg,-114.0504938,50.9809179
+89,2.0,1.0,0.0,SW/SE,Lake Fraser Gate / Macleod Trail SE,89,http://trafficcam.calgary.ca/loc88.jpg,-114.0694135,50.939421
+90,14.0,0.0,0.0,NW/NE,Samis Road / Centre Street North,90,http://trafficcam.calgary.ca/loc89.jpg,-114.0624739,51.0549834
+91,19.0,4.0,1.0,SW/SE,210 Avenue / Macleod Trail SE,91,http://trafficcam.calgary.ca/loc90.jpg,-114.0379767,50.8661576
+92,12.0,1.0,0.0,SE,9 Avenue / 3 Street SE,92,http://trafficcam.calgary.ca/loc91.jpg,-114.0556637,51.0443901
+93,0.0,0.0,0.0,NE,McKnight Boulevard / Barlow Trail NE,93,http://trafficcam.calgary.ca/loc92.jpg,-114.0018281,51.0927921
+94,0.0,2.0,0.0,NE,16 Avenue / Barlow Trail NE,94,http://trafficcam.calgary.ca/loc93.jpg,-114.0020863,51.0667728
+95,3.0,0.0,0.0,NW,16 Avenue / Home Rd NW,95,http://trafficcam.calgary.ca/loc94.jpg,-114.1643274,51.0726124
+96,12.0,0.0,0.0,SE,5 Avenue / 3 Street SE,96,http://trafficcam.calgary.ca/loc95.jpg,-114.0554787,51.048176
+97,1.0,2.0,2.0,NW/NE,McKnight Blvd / Centre St N,97,http://trafficcam.calgary.ca/loc96.jpg,-114.0623634,51.0959746
+98,5.0,0.0,0.0,NW,John Laurie Blvd / 14 Street NW,98,http://trafficcam.calgary.ca/loc97.jpg,-114.0947697,51.0897177
+99,10.0,4.0,0.0,SE,Glenmore Trail / Barlow Trail SE,99,http://trafficcam.calgary.ca/loc98.jpg,-113.9814947,50.9794455
+100,13.0,0.0,1.0,SW/SE,Anderson Road / Macleod Trail S,100,http://trafficcam.calgary.ca/loc99.jpg,-114.0707168,50.9505793
+101,2.0,0.0,0.0,NW,Stoney Trail / Beddington Trail NW,101,http://trafficcam.calgary.ca/loc100.jpg,-114.1149257,51.1565751
+102,14.0,0.0,2.0,SE,Macleod Trail S / 162 Avenue SE (West intersection),102,http://trafficcam.calgary.ca/loc101.jpg,-114.0637026,50.9045746
+103,13.0,2.0,0.0,NE,Memorial Drive / 12 Street NE,103,http://trafficcam.calgary.ca/loc102.jpg,-114.0323668,51.0482461
+104,20.0,2.0,0.0,SW/SE,58 Avenue / Macleod Trail S,104,http://trafficcam.calgary.ca/loc103.jpg,-114.071734,51.0014567
+105,3.0,0.0,0.0,SW,Anderson Road / 24 Street SW,105,http://trafficcam.calgary.ca/loc104.jpg,-114.1175273,50.9507798
+106,3.0,0.0,1.0,SE,Macleod Trail S / 162 Avenue SE (East intersection),106,http://trafficcam.calgary.ca/loc105.jpg,-114.0606044,50.9052795
+107,8.0,3.0,0.0,NE,32 Avenue / 36 Street NE,107,http://trafficcam.calgary.ca/loc106.jpg,-113.9823261,51.0815499
+108,15.0,0.0,0.0,SW,7 Avenue / 8 Street SW,108,http://trafficcam.calgary.ca/loc107.jpg,-114.0811841,51.0470302
+109,11.0,1.0,0.0,SE,114 Avenue / Barlow Trail SE,109,http://trafficcam.calgary.ca/loc108.jpg,-113.981644,50.9505254
+110,10.0,0.0,0.0,SE,Barlow Trail / Deerfoot Trail SE,110,http://trafficcam.calgary.ca/loc109.jpg,-113.9814887,50.9447422
+111,6.0,1.0,0.0,SE,Glenmore Trail / 18 Street SE,111,http://trafficcam.calgary.ca/loc110.jpg,-114.0157036,50.9790353
+112,4.0,0.0,0.0,SW,Glenmore Trail / 14 Street SW (West),112,http://trafficcam.calgary.ca/loc111.jpg,-114.0949781,50.9938095
+113,19.0,0.0,0.0,SW,Flanders Avenue / Crowchild Trail SW,113,http://trafficcam.calgary.ca/loc112.jpg,-114.1173771,51.0157852
+114,14.0,1.0,0.0,NE,Airport Trail / 36 Street NE,114,http://trafficcam.calgary.ca/loc113.jpg,-113.9816889,51.1397793
+115,21.0,1.0,0.0,NE,Airport Trail / Barlow Trail NE,115,http://trafficcam.calgary.ca/loc114.jpg,-114.0014507,51.1393524
+116,2.0,0.0,0.0,NE,McKnight Blvd / Stoney Trail NE,116,http://trafficcam.calgary.ca/loc115.jpg,-113.915867,51.0967588
+117,11.0,0.0,0.0,SE,162 Avenue / Shawville Blvd SE,117,http://trafficcam.calgary.ca/loc116.jpg,-114.0659867,50.9043314
+118,13.0,0.0,0.0,SE,Blackfoot Trail / 19 Street SE,118,http://trafficcam.calgary.ca/loc117.jpg,-114.0179088,51.037649
+119,0.0,2.0,3.0,SW/SE,Canyon Meadows Dr / Macleod Trail SE,119,http://trafficcam.calgary.ca/loc118.jpg,-114.0694188,50.9318705
+120,9.0,0.0,0.0,NW,16 Avenue / Sarcee Trail  NW,120,http://trafficcam.calgary.ca/loc119.jpg,-114.1891603,51.0808525
+121,16.0,0.0,0.0,SW,Anderson Road / 14 Street SW,121,http://trafficcam.calgary.ca/loc120.jpg,-114.0944192,50.950741
+122,8.0,0.0,0.0,SE,Riverfront Avenue / 1 Street SE,122,http://trafficcam.calgary.ca/loc121.jpg,-114.0600141,51.0511313
+123,3.0,1.0,0.0,SW,5 Avenue / 5 Street SW,123,http://trafficcam.calgary.ca/loc122.jpg,-114.0736443,51.0486767
+124,7.0,1.0,0.0,SW,33 Avenue / Crowchild Trail SW,124,http://trafficcam.calgary.ca/loc123.jpg,-114.1173688,51.0240736
+125,3.0,0.0,0.0,SW,Bow Trail / Crowchild Trail SW,125,http://trafficcam.calgary.ca/loc124.jpg,-114.1127754,51.043601
+126,29.0,0.0,0.0,SW,Bow Trail / Sarcee Trail SW,126,http://trafficcam.calgary.ca/loc125.jpg,-114.1639913,51.0527426
+127,28.0,2.0,0.0,NW,Crowchild Trail / Sarcee Trail NW,127,http://trafficcam.calgary.ca/loc126.jpg,-114.1782042,51.1112551
+128,26.0,0.0,0.0,NW/NE,16 Avenue / Centre Street N,128,http://trafficcam.calgary.ca/loc127.jpg,-114.0626323,51.0667995
+129,4.0,1.0,0.0,SE,Glenmore Trail / Stoney Trail SE,129,http://trafficcam.calgary.ca/loc128.jpg,-113.9292632,50.9796349
+130,22.0,0.0,0.0,SW,9 Avenue / 5 Street SW,130,http://trafficcam.calgary.ca/loc129.jpg,-114.0738336,51.0448849
+131,5.0,0.0,0.0,SE,Stoney Trail / Chaparral Blvd SE,131,http://trafficcam.calgary.ca/loc130.jpg,-114.0256459,50.8888807
+132,9.0,3.0,0.0,SW,Richmond Road / Sarcee Trail SW,132,http://trafficcam.calgary.ca/loc131.jpg,-114.1661897,51.0178524
+133,7.0,0.0,0.0,NE,Stoney Trail / Metis Trail NE,133,http://trafficcam.calgary.ca/loc132.jpg,-113.969186,51.1751401
+134,27.0,0.0,0.0,NW,Stoney Trail / Nose Hill Drive NW,134,http://trafficcam.calgary.ca/loc133.jpg,-114.2239989,51.1067302
+135,8.0,2.0,0.0,NW,Crowchild Trail / Stoney Trail NW,135,http://trafficcam.calgary.ca/loc134.jpg,-114.2310015,51.1328769
+136,12.0,1.0,0.0,NW,Stoney Trail / Country Hills Blvd NW,136,http://trafficcam.calgary.ca/loc135.jpg,-114.2032242,51.1445959
+137,13.0,1.0,0.0,NW/NE,Stoney Trail / Harvest Hills Blvd N,137,http://trafficcam.calgary.ca/loc136.jpg,-114.0689009,51.1734005
+138,4.0,3.0,1.0,SE,Stoney Trail / Peigan Trail SE,138,http://trafficcam.calgary.ca/loc137.jpg,-113.9216323,51.0156205
+139,19.0,3.0,1.0,SW,17 Avenue / Sarcee Trail SW,139,http://trafficcam.calgary.ca/loc138.jpg,-114.1659844,51.0393138
+140,12.0,1.0,0.0,SW,162 Avenue / James McKevitt Road SW,140,http://trafficcam.calgary.ca/loc139.jpg,-114.0992225,50.9054342
+141,18.0,1.0,1.0,SW,17 Avenue / 69 Street SW,141,http://trafficcam.calgary.ca/loc140.jpg,-114.1873508,51.0380985
+142,3.0,0.0,0.0,SW,90 Avenue / 24 Street SW,142,http://trafficcam.calgary.ca/loc141.jpg,-114.1177502,50.9724213
+143,17.0,0.0,0.0,SW,Bow Trail / 37 Street SW,143,http://trafficcam.calgary.ca/loc142.jpg,-114.1413616,51.0453097
+144,4.0,0.0,0.0,SE,17 Avenue / Macleod Trail SE,144,http://trafficcam.calgary.ca/loc143.jpg,-114.0587094,51.0378583
+145,4.0,0.0,0.0,SE,Glenmore Trail / 68 Street SE,145,http://trafficcam.calgary.ca/loc144.jpg,-113.9346103,50.9794625
+146,6.0,0.0,0.0,SW,Bow Trail & Old Banff Coach Rd SW / Strathcona Blvd SW,146,http://trafficcam.calgary.ca/loc145.jpg,-114.1816828,51.0522689
+147,13.0,1.0,1.0,NE,Airport Trail / Metis Trail NE,147,https://trafficcam.calgary.ca/loc146.jpg,-113.9704835,51.1401466
+148,10.0,0.0,0.0,NE,Country Hills Blvd / Metis Trail NE,148,https://trafficcam.calgary.ca/loc147.jpg,-113.9696467,51.1543276
+149,16.0,0.0,0.0,NE,64 Avenue / Falconridge Blvd NE,149,http://trafficcam.calgary.ca/loc148.jpg,-113.9467072,51.1107618
+150,6.0,2.0,0.0,NW,Country Hills Blvd / Shaganappi Tr NW,150,http://trafficcam.calgary.ca/loc149.jpg,-114.123785,51.1423937
+151,11.0,3.0,0.0,NW,64 Avenue / 14 Street NW,151,http://trafficcam.calgary.ca/loc150.jpg,-114.0832168,51.1092691
+152,20.0,4.0,0.0,NE,32 Avenue / Barlow Trail NE,152,https://trafficcam.calgary.ca/loc151.jpg,-114.0014122,51.0816218
+153,21.0,2.0,0.0,NW,Kensington Rd / 14 St NW,153,https://trafficcam.calgary.ca/loc152.jpg,-114.0945466,51.0524335
+154,11.0,0.0,0.0,NW,Country Hills Bv/ Sarcee Tr NW,154,http://trafficcam.calgary.ca/loc153.jpg,-114.1645796,51.1374967
+155,2.0,1.0,0.0,NW,Charleswood Dr / John Laurie Bv NW,155,http://trafficcam.calgary.ca/loc154.jpg,-114.1165044,51.0967191
+156,13.0,1.0,2.0,SE,Anderson Rd / Acadia Dr SE,156,http://trafficcam.calgary.ca/loc155.jpg,-114.0417885,50.9480431
+157,9.0,1.0,0.0,SE,12 Ave / 3 St  SE,157,http://trafficcam.calgary.ca/loc156.jpg,-114.0559291,51.0412162
+159,15.0,0.0,0.0,SE,7 Ave / Macleod Tr SE,159,http://trafficcam.calgary.ca/loc158.jpg,-114.0581972,51.046454
+161,28.0,0.0,1.0,SW,3 Ave / 1 St SW,161,http://trafficcam.calgary.ca/loc160.jpg,-114.0650013,51.0504292
+162,5.0,0.0,0.0,SW,17 Ave / 4 St SW,162,http://trafficcam.calgary.ca/loc161.jpg,-114.0715981,51.0377508
+163,8.0,1.0,0.0,SW,17 Ave / 14 St SW,163,http://trafficcam.calgary.ca/loc162.jpg,-114.0946681,51.0379174
+164,9.0,2.0,0.0,SW,3 Ave / 3 St SW,164,http://trafficcam.calgary.ca/loc163.jpg,-114.0699408,51.0506131
+165,0.0,0.0,0.0,SW,11 Ave / 14 St SW,165,http://trafficcam.calgary.ca/loc164.jpg,-114.0948634,51.0431872
+166,11.0,1.0,0.0,SW,Richmond Rd / 37 St SW,166,http://trafficcam.calgary.ca/loc165.jpg,-114.1413625,51.0225389
+167,22.0,0.0,0.0,SW,Bow Tr / 85 St SW,167,http://trafficcam.calgary.ca/loc166.jpg,-114.2114586,51.0526725
+168,5.0,1.0,1.0,SE,7 Ave / 4 St SE,168,http://trafficcam.calgary.ca/loc167.jpg,-114.0529827,51.0461744
+169,12.0,0.0,0.0,SW,8 Ave / 4 St SW,169,http://trafficcam.calgary.ca/loc168.jpg,-114.071668,51.0457185
+170,25.0,2.0,0.0,SW,9 Ave / 9 St SW,170,http://trafficcam.calgary.ca/loc169.jpg,-114.0838609,51.0452941
+171,5.0,1.0,0.0,SW,9 Ave / 1 St SW,171,http://trafficcam.calgary.ca/loc170.jpg,-114.065353,51.0447401
+172,5.0,1.0,0.0,NE,Country Hills Bv / Stoney Tr NE,172,http://trafficcam.calgary.ca/loc171.jpg,-113.919492,51.1541373
+173,22.0,4.0,0.0,NE,Airport Tr / Deerfoot Tr NE,173,http://trafficcam.calgary.ca/loc172.jpg,-114.0352515,51.1423169
+174,6.0,1.0,2.0,SW,Old Banff Coach Rd / 85 St SW,174,http://trafficcam.calgary.ca/loc173.jpg,-114.2111715,51.066886
+175,14.0,1.0,0.0,SW,17 Ave / 85 St SW,175,http://trafficcam.calgary.ca/loc174.jpg,-114.2109559,51.0381914
