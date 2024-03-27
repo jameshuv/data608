@@ -19,6 +19,8 @@ st.set_page_config(
 #Page header
 st.header(f"Traffic in Calgary", divider = True)
 
+#Split into columns
+col1, col2 = st.columns([0.2, 0.8])
 
 ########################################################################################
 ##################### Example Data Viz #################################################
@@ -34,9 +36,7 @@ chart_data['Traffic'] = pd.cut(chart_data['traffic_sum'],
 st.sidebar.title("Current Conditions")
 st.sidebar.write(chart_data[['Intersection', 'Traffic']])
 
-col1, col2 = st.columns([0.2, 0.8])
-
-
+#Populate col 1
 with col1:
     labels = list(chart_data['Traffic'].unique())
     values = list(chart_data['Traffic'].value_counts())
@@ -67,6 +67,7 @@ with col1:
     fig.update_xaxes(title_text="Time", row=2, col=1, showgrid=False)
     st.plotly_chart(fig, use_container_width=True)
 
+#Populate col 2
 with col2:
     st.pydeck_chart(pdk.Deck(
         map_style=None,
