@@ -31,6 +31,7 @@ chart_data['Traffic'] = pd.cut(chart_data['traffic_sum'],
                             labels = ['Low', 'Moderate', 'High'])
 
 #Customize sidebar
+st.sidebar.title("Current Conditions")
 st.sidebar.write(chart_data[['Intersection', 'Traffic']])
 
 col1, col2 = st.columns([0.2, 0.8])
@@ -45,7 +46,7 @@ with col1:
     fig.add_trace(go.Pie(labels=labels, values=values, title=f"Traffic <br> <b>Levels</b>", 
                         title_font=dict(size=20, color = "white", family='Arial, sans-serif'),
                         hole=.4, hoverinfo="label+value+name", textinfo='percent+label',
-                        marker=dict(colors=['yellow', 'green', 'red'], line=dict(color='#000000', width=2))), 
+                        marker=dict(colors=['darkorange', 'lightyellow', 'darkred'], line=dict(color='#000000', width=2))), 
                     row=1, col=1) 
     n=16
     x_example = np.arange(n)
