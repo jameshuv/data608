@@ -85,13 +85,6 @@ with col2:
             elevation_range=[0, 1000],
             pickable=True,
             extruded=True,
-            ),
-            pdk.Layer(
-                'ScatterplotLayer',
-                data=chart_data,
-                get_position='[longitude, latitude]',
-                get_color='[200, 30, 0, 160]',
-                get_radius=200,
-            ),
+            )
         ],
     ))
