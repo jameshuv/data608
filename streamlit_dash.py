@@ -51,7 +51,7 @@ with col1:
     n=16
     x_example = np.arange(n)
     fig.add_trace(go.Scatter(
-        x = pd.date_range('2024-03-26', periods=n, freq='1h'),
+        x = pd.date_range('2024-03-26', periods=24, freq='1h'),
         y = np.sin(4*np.pi*x_example/n)+np.cos(8*np.pi*x_example/n) + 100,
         marker=dict(color='grey'),
         name="Historical Traffic",
@@ -63,7 +63,7 @@ with col1:
         showlegend=False,
         margin={"r": 0, "t": 0, "l": 0, "b": 0}, plot_bgcolor='#0e1117', paper_bgcolor='#0e1117', autosize = True)
 
-    fig.update_yaxes(title_text="Traffic Volume", row=2, col=1, showgrid=False)
+    fig.update_yaxes(title_text="Avg. Traffic Vol.", row=2, col=1, showgrid=False)
     fig.update_xaxes(title_text="Time", row=2, col=1, showgrid=False)
     st.plotly_chart(fig, use_container_width=True)
 
