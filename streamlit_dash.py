@@ -68,6 +68,35 @@ with col1:
     st.plotly_chart(fig, use_container_width=True)
 
 #Populate col 2
+
+#Define custom colur scheme
+min_count = chart_data['traffic_sum'].min()
+max_count = chart_data['traffic_sum'].max()
+diff = max_count - min_count
+
+color_scheme = [
+        [255,255,178],
+        [254,217,118],
+        [254, 178, 76],
+        [253, 141, 60],
+        [240,59,32],
+        [189,0,38]
+    ]
+
+#Caluclate RGBA color values for every obs
+from math import floor
+def get_color(row):
+    number_of_colors = len(color_scheme)
+    index = floor(number_of_colors * (row['traffic_sum'] - min_count) / diff)
+    # the index might barely go out of bounds, so correct for that:
+    if index == number_of_colors:
+        index = number_of_colors - 1
+    elif index == -1:
+        index = 0
+    return color_scheme[index]
+
+chart_data['color_column'] = chart_data.apply(get_color, axis = 1)
+
 with col2:
     st.pydeck_chart(pdk.Deck(
         map_style=None,
@@ -79,11 +108,14 @@ with col2:
         ),
         layers=[
             pdk.Layer(
-            'HexagonLayer',
+            'ColumnLayer',
             data=chart_data,
             get_position='[longitude, latitude]',
+            get_elevation="traffic_sum",
             radius=200,
-            elevation_scale=4,
+            elevation_scale=100,
+            get_fill_color='color_column',
+            #get_fill_color=[255, "254 - (traffic_sum ** 2)", 0, 100],
             elevation_range=[0, 1000],
             pickable=True,
             extruded=True,
