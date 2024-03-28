@@ -69,11 +69,7 @@ with col1:
 
 #Populate col 2
 
-#Define custom colur scheme
-min_count = chart_data['traffic_sum'].min()
-max_count = chart_data['traffic_sum'].max()
-diff = max_count - min_count
-
+#Define custom RGBA colur scheme
 color_scheme = [
         [255,255,178],
         [254,217,118],
@@ -83,7 +79,11 @@ color_scheme = [
         [189,0,38]
     ]
 
-#Caluclate RGBA color values for every obs
+#Project traffic sum observations onto linear representation of custom RGBA values
+min_count = chart_data['traffic_sum'].min()
+max_count = chart_data['traffic_sum'].max()
+diff = max_count - min_count
+
 from math import floor
 def get_color(row):
     number_of_colors = len(color_scheme)
@@ -115,7 +115,6 @@ with col2:
             radius=200,
             elevation_scale=100,
             get_fill_color='color_column',
-            #get_fill_color=[255, "254 - (traffic_sum ** 2)", 0, 100],
             elevation_range=[0, 1000],
             pickable=True,
             extruded=True,
