@@ -33,8 +33,8 @@ col1, col2 = st.columns([0.2, 0.8])
 s3_client = boto3.client('s3')
 
 # let's use that client to get our bucket
-bucket_name = 'tutorial8traffic'
-object_key = 'traffic_detection-2.csv'
+bucket_name = '' #Specify Bucket Name
+object_key = '' #Specify object name '.csv'
 response = s3_client.get_object(Bucket=bucket_name, Key=object_key)
 
 # Use pandas to read the CSV directly from the S3 object
