@@ -3,6 +3,7 @@ import plotly.graph_objects as go
 import plotly.subplots as pls
 import pandas as pd
 import numpy as np
+import pydeck as pdk
 
 def get_color(row, min, max):
     #Define custom RGBA colur scheme
@@ -25,7 +26,7 @@ def get_color(row, min, max):
         index = 0
     return color_scheme[index]
 
-def side_plot(chart_data):
+def get_sideplot(chart_data):
     
     labels = list(chart_data['Traffic'].dropna().unique())
     values = list(chart_data['Traffic'].value_counts())
@@ -50,8 +51,34 @@ def side_plot(chart_data):
     fig.update_layout(
         title_text="PE",
         showlegend=False,
-        margin={"r": 0, "t": 0, "l": 0, "b": 0}, plot_bgcolor='#0e1117', paper_bgcolor='#0e1117', autosize = True)
+        margin={"r": 5, "t": 0, "l": 0, "b": 0}, plot_bgcolor='#0e1117', paper_bgcolor='#0e1117', autosize = True)
 
     fig.update_yaxes(title_text="Avg. Traffic Vol.", row=2, col=1, showgrid=False)
     fig.update_xaxes(title_text="Time", row=2, col=1, showgrid=False)
+    return(fig)
+
+def get_map(chart_data):
+    fig = pdk.Deck(
+            map_style=None,
+            initial_view_state=pdk.ViewState(
+                latitude=51.066886,
+                longitude=-114.065353,
+                zoom=10,
+                pitch=50,
+            ),
+            layers=[
+                pdk.Layer(
+                'ColumnLayer',
+                data=chart_data,
+                get_position='[longitude, latitude]',
+                get_elevation="traffic_sum",
+                radius=200,
+                elevation_scale=100,
+                get_fill_color='color_column',
+                elevation_range=[0, 1000],
+                pickable=True,
+                extruded=True,
+                )
+            ],
+        )
     return(fig)
