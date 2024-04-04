@@ -9,6 +9,7 @@ import urllib.request
 import torch
 from io import StringIO
 import time 
+from multiprocessing import Pool
 
 start_time = time.time()
 
@@ -54,17 +55,34 @@ ssl_context = ssl.create_default_context()
 ssl_context.check_hostname = False
 ssl_context.verify_mode = ssl.CERT_NONE
 
-for i, row in df.iterrows():
-    image_url = row['URL']
-    image_name = f"image_{i}.jpg"
-    local_img_file = os.path.join(IMAGES_DIR, image_name)
-
+#define function to download images
+def download_images(image_url, images_dir):
     try:
-        with urllib.request.urlopen(image_url, context=ssl_context) as response, open(local_img_file, 'wb') as out_file:
-            shutil.copyfileobj(response, out_file)
-    except urllib.error.HTTPError as e:
-        print(f"Failed to download {image_url}: {e.reason}")
-        failed_downloads.append((image_url, e.code))
+        response = requests.get(image_url)
+        if response.status_code == 200:
+            #extract filename from URL
+            filename = os.path.basename(image_url)
+            
+            #save image to output directory
+            with open(os.path.join(images_dir, filename), 'wb') as f:
+                f.write(response.content)
+            print(f"Downloaded {filename}")
+        else:
+            print(f"Failed to download image from {image_url}")
+    except Exception as e:
+        print(f"Error downloading image from {image_url}: {e}")
+
+#utilize multiprocessing to download images
+if __name__ == "__main__":
+    #define the list of image URLs
+    image_urls = df['URL']
+    
+    #define the number of CPU processors
+    num_processes = os.cpu_count()
+    
+    #download the images
+    with Pool(processes=num_processes) as pool:
+        pool.starmap(download_images, [(url, images_dir) for url in image_urls])
 
 
 # Load YOLOv5
