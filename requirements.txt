@@ -7,5 +7,5 @@ IPython
 ipykernel
 streamlit
 plotly
-geopandas
 shapely
+cython

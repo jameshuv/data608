@@ -5,7 +5,7 @@ import io
 import pydeck as pdk
 import plotly.subplots as pls
 import plotly.graph_objects as go
-
+import local_functions as lf
 
 ########################################################################################
 ##################### Page Configuration ###############################################
@@ -23,7 +23,6 @@ st.header(f"Traffic in Calgary", divider = True)
 
 #Split into columns
 col1, col2 = st.columns([0.2, 0.8])
-
 
 ########################################################################################
 ##################### Example Data Viz #################################################
@@ -85,33 +84,11 @@ with col1:
 
 #Populate col 2
 
-#Define custom RGBA colur scheme
-color_scheme = [
-        [255,255,178],
-        [254,217,118],
-        [254, 178, 76],
-        [253, 141, 60],
-        [240,59,32],
-        [189,0,38]
-    ]
-
 #Project traffic sum observations onto linear representation of custom RGBA values
-min_count = chart_data['traffic_sum'].min()
-max_count = chart_data['traffic_sum'].max()
-diff = max_count - min_count
+min_count = min(chart_data['traffic_sum'])
+max_count = max(chart_data['traffic_sum'])
 
-from math import floor
-def get_color(row):
-    number_of_colors = len(color_scheme)
-    index = floor(number_of_colors * (row['traffic_sum'] - min_count) / diff)
-    # the index might barely go out of bounds, so correct for that:
-    if index == number_of_colors:
-        index = number_of_colors - 1
-    elif index == -1:
-        index = 0
-    return color_scheme[index]
-
-chart_data['color_column'] = chart_data.apply(get_color, axis = 1)
+chart_data['color_column'] = chart_data.apply(lf.get_color, min = min_count, max = max_count, axis = 1)
 
 with col2:
     st.pydeck_chart(pdk.Deck(
