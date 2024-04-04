@@ -5,11 +5,11 @@ import pandas as pd
 import numpy as np
 import pydeck as pdk
 
-def get_color(row, min, max):
+def get_colour(row, min, max):
     #Define custom RGBA colur scheme
     diff = max - min
 
-    color_scheme = [
+    colour_scheme = [
         [255,255,178],
         [254,217,118],
         [254, 178, 76],
@@ -18,13 +18,13 @@ def get_color(row, min, max):
         [189,0,38]
     ]
 
-    number_of_colors = len(color_scheme)
+    number_of_colors = len(colour_scheme)
     index = floor(number_of_colors * (row['traffic_sum'] - min) / diff)
     if index == number_of_colors:
         index = number_of_colors - 1
     elif index == -1:
         index = 0
-    return color_scheme[index]
+    return colour_scheme[index]
 
 def get_sideplot(chart_data):
     
@@ -56,6 +56,7 @@ def get_sideplot(chart_data):
     fig.update_yaxes(title_text="Avg. Traffic Vol.", row=2, col=1, showgrid=False)
     fig.update_xaxes(title_text="Time", row=2, col=1, showgrid=False)
     return(fig)
+
 
 def get_map(chart_data):
     fig = pdk.Deck(

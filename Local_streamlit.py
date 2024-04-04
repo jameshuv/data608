@@ -37,8 +37,7 @@ chart_data['Traffic'] = pd.cut(chart_data['traffic_sum'],
 min_count = min(chart_data['traffic_sum'])
 max_count = max(chart_data['traffic_sum'])
 
-chart_data['color_column'] = chart_data.apply(lf.get_color, min = min_count, max = max_count, axis = 1)
-
+chart_data['color_column'] = chart_data.apply(lf.get_colour, min= min_count, max = max_count, axis = 1)
 
 ########################################################################################
 ##################### Data Viz #########################################################
@@ -57,4 +56,3 @@ with col1:
 with col2:
     map = lf.get_map(chart_data)
     st.pydeck_chart(map)
-
