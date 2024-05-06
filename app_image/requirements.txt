@@ -1,7 +1,0 @@
-pandas
-numpy
-boto3
-pydeck
-plotly
-streamlit
-streamlit-aggrid

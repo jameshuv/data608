@@ -1,0 +1,6 @@
+pydeck
+plotly
+streamlit
+streamlit-aggrid
+Cython
+pillow>=10.3.0
