@@ -1,4 +1,5 @@
 #AI Traffic Surveillance: Monitoring the City of Calgary's Traffic Counts using the YOLOv5 AI model
+
 Monitoring traffic flow and congestion in real time poses a significant challenge due to
 the expense and logistical hurdles associated with deploying physical sensors on roads.
 Traditional monitoring solutions are costly to install and maintain, limiting their scalability and
@@ -23,6 +24,7 @@ management and urban planning.
 ## Installation
 
 ### Docker
+
 A docker image of this app can be pulled from [Docker Hub](https://hub.docker.com/repository/docker/dswede43/calgary_traffic/general).
 
 #### Example
